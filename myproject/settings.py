@@ -25,12 +25,10 @@ SECRET_KEY = 'django-insecure-foa=5d&x5v8)v#y8z*+d1+3!sul5-$c644!*(^36-=jd49bj8!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0','django-dev.transbits.net', '172.18.0.3','172.18.0.2',    'https://chatboot2.transbits.net', 'iotserver.djangionic.com']
+ALLOWED_HOSTS = [ 'iotserver.djangionic.com']
  
 CSRF_TRUSTED_ORIGINS = [
-    'https://django-dev.transbits.net',
-    'http://0.0.0.0:4200'
-    ,    'https://chatboot2.transbits.net', 'https://iotserver.djangionic.com'
+   'https://iotserver.djangionic.com'
 ]
 # Application definition
 
