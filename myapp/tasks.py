@@ -11,7 +11,7 @@ def send_sms_alert(temperature):
     message = client.messages.create(
         body=f"Warning: The refrigerator door has been open for too long. Current temperature: {temperature}°C",
         from_='+1234567890',  # Your Twilio number
-        to='+0987654321'  # The store manager's number
+        to='+12345555'  # The store manager's number
     )
     
     print(f"SMS sent: {message.sid}")
