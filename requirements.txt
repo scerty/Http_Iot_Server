@@ -1,0 +1,7 @@
+Django
+djangorestframework
+requests
+markdown
+psycopg2-binary
+gunicorn
+django-cors-headers==3.14.0
